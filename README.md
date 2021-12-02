@@ -9,22 +9,22 @@ A litmus test for whether an app has all config correctly factored out of the co
 
 We can create different environments which we need like development, quality assurance, production etc in the root folder of the project. Environment specific builds give us a way to:
 
-**-** Change the values of variables at build time.
-**-** Change app/bundle ids to allow the installation of any environment variant on the same device at the same time.
-**-** Change the icon for each build variant.
-**-** Change the display name of the app.
-**-** Change the app launch screen.
+Change the values of variables at build time.
+Change app/bundle ids to allow the installation of any environment variant on the same device at the same time.
+Change the icon for each build variant.
+Change the display name of the app.
+Change the app launch screen.
 
 # Multienvironment Setup on Android
 
-**-** Place your precious keys in these environments.
-**-** Add folders for each environment under android > app > src
-**-** Add configurations in buid.gradle(app) file.
-**-** Use environmental keys in the file you need.
-**-** Add scripts to run the different builds.
+Place your precious keys in these environments.
+Add folders for each environment under android > app > src
+Add configurations in buid.gradle(app) file.
+Use environmental keys in the file you need.
+Add scripts to run the different builds.
 
 # Multienvironment Setup on iOS
 
-**-** Place your precious keys in these environments.
-**-** Add targets like development, quality assurance, production etc. It will automatically creates Info.plist respectively. Duplicates the main traget always.
-**-** Manage different schemes.
+Place your precious keys in these environments.
+Add targets like development, quality assurance, production etc. It will automatically creates Info.plist respectively. Duplicates the main traget always.
+Manage different schemes.
