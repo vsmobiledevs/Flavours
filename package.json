@@ -1,0 +1,36 @@
+{
+  "name": "Flavours",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "runDebugQa": "react-native run-android --variant=qaDebug --appIdSuffix=qa",
+    "runDebugDev": "react-native run-android --variant=devDebug --appIdSuffix=dev",
+    "runDebugProd": "react-native run-android --variant=prodDebug --appIdSuffix=prod",
+    "runReleaseQa": "react-native run-android --variant=qarelease --appIdSuffix=qa",
+    "runReleaseDev": "react-native run-android --variant=devrelease --appIdSuffix=dev",
+    "runReleaseProd": "react-native run-android --variant=prodrelease --appIdSuffix=prod"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.66.3",
+    "react-native-config": "^1.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/runtime": "^7.16.3",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.4.2",
+    "eslint": "^8.3.0",
+    "jest": "^27.4.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
