@@ -15,16 +15,22 @@ Change the icon for each build variant.
 Change the display name of the app.
 Change the app launch screen.
 
-# Multienvironment Setup on Android
+# Android Setup (poinst)
 
 Place your precious keys in these environments.
+
 Add folders for each environment under android > app > src
+
 Add configurations in buid.gradle(app) file.
+
 Use environmental keys in the file you need.
+
 Add scripts to run the different builds.
 
-# Multienvironment Setup on iOS
+# iOS Setup (points)
 
 Place your precious keys in these environments.
+
 Add targets like development, quality assurance, production etc. It will automatically creates Info.plist respectively. Duplicates the main traget always.
+
 Manage different schemes.
